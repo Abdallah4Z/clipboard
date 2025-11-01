@@ -13,23 +13,27 @@ Open a terminal and run this command to install `python3-tk` (which lets the win
 ```bash
 sudo apt install python3-tk xdotool
 ```
+1. Download the `simple_clipboard` file from the **[releases page](https://github.com/Abdallah4Z/clipboard/releases)**.
+2. Move it to a permanent folder, like `~/.local/bin/` (keeps your home folder clean):
 
-**B. Install the App**
-
-1. Download the `simple_clipboard` file (from the `dist/` folder).
-
-2. Move it to a permanent folder, like `~/.local/bin/`. (This keeps your home folder clean).
-
-   ```bash
-   mkdir -p ~/.local/bin
-   mv simple_clipboard ~/.local/bin/
-   ```
+```bash
+mkdir -p ~/.local/bin
+mv simple_clipboard ~/.local/bin/
+```
 
 3. Make the file executable:
 
-   ```bash
-   chmod +x ~/.local/bin/simple_clipboard
-   ```
+```bash
+chmod +x ~/.local/bin/simple_clipboard
+```
+
+> 💡 **Tip:** You can also download it directly using `wget`:
+
+```bash
+mkdir -p ~/.local/bin && \
+wget -O ~/.local/bin/simple_clipboard https://github.com/Abdallah4Z/clipboard/releases/download/v0.1/simple_clipboard
+chmod +x ~/.local/bin/simple_clipboard
+```
 
 ### 2. How to Use
 
